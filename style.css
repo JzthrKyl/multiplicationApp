@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Squada+One&display=swap');
+
+* {
+  font-family: 'Squada One', cursive;
+  letter-spacing: 2px;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  text-align: center;
+  background: #127475;
+}
+
+.form {
+  background: #E8E8E8;
+  padding: 20px;
+  box-shadow: 0 5px 10px rgba(0,0,0, 0.5);
+  margin: 15px;
+}
+
+.input {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 25px;
+  text-align: center;
+  padding: 10px;
+  border: solid 3px #A83847; 
+  color: #A83847;
+}
+
+input::placeholder {
+  color: #5A8784;
+}
+
+.btn {
+  background: #A83847;
+  color: white;
+  border: none;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+  margin: 20px 0;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+} 
+
+.btn:hover {
+  filter: brightness(0.9);
+}
+
+.score {
+  text-align: right;
+}
+
